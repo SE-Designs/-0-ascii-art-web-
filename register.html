@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css" integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sora:wght@200;400;700&display=swap" rel="stylesheet"> 
+    <title>AstanaJS - Home</title>
+</head>
+<body>
+    <header>
+        <!-- <section class="top-line">
+            <p class="top-info"><a href="register.html">Register now for only cost <del>$99</del> <strong>$49</strong>, one of the best values you’ll find</a> 🎉🎉🎉</p>
+        </section> -->
+        <section class="top-main">
+            <h1 class="nav-name"><a href="index.html"><span class="empty">JS</span>Astana</a></h1>
+            <h2 class="nav-logo"><a href="index.html"><img src="logo.png" alt="logo" width="80px" height="80px"></a>
+            <h2 class="nav-logo2"><a href="https://btsdigital.kz/"><figure>Powered by<img src="logo.svg" alt="logo" width="60px" height="30px"></figure></a></h2>
+            <h2 class="nav-date"><a href="schedule.html">Nur-Sultan, AstanaHub C4.6 — 25-28th June</a></h2>
+            <div class="clear"></div>
+        </section>
+        <nav class="primary-nav">
+            <ul class="top-nav">
+                <li><a href="index.html">home</a></li>
+                <li><a href="speakers.html">speakers</a></li>
+                <li><a href="schedule.html">schedule</a></li>
+                <li><a href="venue.html">venue</a></li>
+                <li><a href="register.html">register</a></li>
+            </ul>
+        </nav>
+        <nav class="social-nav">
+            <ul>
+                <li class="right-els"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="right-els"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="right-els"><a href="https://telegram.org/"><i class="fa-brands fa-telegram"></i></a></li>
+                <li class="right-els"><a href="https://vk.com/"><i class="fa-brands fa-vk"></i></a></li>
+                <div class="clear"></div>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+    <section class="intro">
+        <div class="intro-div">
+            <h2>Register Now</h2>
+            <p>Every year we aim to have an unbelievable time, and this year we’d love it for you to join us. Register now for only cost <del>$99</del> <strong>$49</strong>,  one of the best values you’ll find.</a></p>
+        </div>
+        <div class="hor-rule"></div>
+    </section>
+    <main>
+        <aside class="register-text">
+            <h2>Purchase a conference pass!</h2>
+            <h3>only 49$ for now</h3>
+            <p>Purchase your AstanaJS pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we’ll follow up and provide a receipt for your purchase.</p>
+            <br>
+            <p>More than 20 world-class speakers from 12 countries will visit AstanaJS and will share over 60 hours of useful content and insides with you. See you soon!</p>
+        </aside>
+        <section class="register-form">
+            <form action="/" method="POST">
+                <label class="reg-label" for="reg-name">Full name: <span>*</span></label>
+                <input class="reg-form" type="text" name="reg-name" id="reg-name" autofocus required>
+                <label class="reg-label" for="reg-tel">Phone number: <span>*</span></label>
+                <input class="reg-form" type="tel" name="reg-tel" id="reg-tel" required>
+                <label class="reg-label" for="reg-email">Email: <span>*</span></label>
+                <input class="reg-form" type="email" name="reg-email" id="reg-email" required>
+                <label class="reg-label" for="reg-nums">Number of tickets: <span>*</span></label>
+                <input class="reg-form" type="number" name="reg-nums" id="reg-nums" value="1" min="1" max="5" required>
+                <label class="reg-label" for="reg-msg">Message:</label>
+                <textarea class="reg-form" name="reg-msg" id="reg-msg" cols="30" rows="4" maxlength="2000"></textarea>
+
+                <input type="button" class="submit btn" value="Submit">
+            </form>
+        </section>
+        <div class="clear"></div>
+    </main>
+    <footer>
+        <nav class="primary-nav">
+            <ul class="top-nav">
+                <li><a href="index.html">home</a></li>
+                <li><a href="speakers.html">speakers</a></li>
+                <li><a href="schedule.html">schedule</a></li>
+                <li><a href="venue.html">venue</a></li>
+                <li><a href="register.html">register</a></li>
+            </ul>
+        </nav>
+        <nav class="social-nav">
+            <ul>
+                <li class="right-els"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="right-els"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="right-els"><a href="https://telegram.org/"><i class="fa-brands fa-telegram"></i></a></li>
+                <li class="right-els"><a href="https://vk.com/"><i class="fa-brands fa-vk"></i></a></li>
+                <div class="clear"></div>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </footer>
+</body>
+</html>
